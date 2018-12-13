@@ -4,6 +4,9 @@ hashicorp vault behind nginx
 
 How to get vault with https://myhost/vault address? non-root web url
 
+* config.hcl - vault server configuration  
+* vault.location - location for vault service definiton in nginx  
+
 
 ### Server config
 1. api_addr = "http://127.0.0.1/vault/v1"  
